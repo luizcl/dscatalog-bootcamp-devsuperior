@@ -12,7 +12,11 @@
 
 .catalog-products{
     margin-top:  43px;
-    display: flex;
-    flex-wrap: wrap;
+    // Change the format to distribute contents
+    display: grid;
+    //The function avoids repeating 250px to every item, and auto-fill distribute itens vertically and dont try to use all the space instead of auto-fit
+    grid-template-columns: repeat(auto-fill, 250px);
     justify-content: space-between;
+    //Top gap and right gap
+    grid-gap: 33px 20px;
 }
