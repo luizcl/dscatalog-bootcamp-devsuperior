@@ -1,11 +1,11 @@
 import React from 'react';
 import './core/assests/styles/custom.scss'
 import './App.scss'
-import Navbar from './core/components/Navbar';
+import Routs from './Routes';
 
 const App = () => {
     return(
-        <Navbar />
+        <Routs />
     );
 }
 
