@@ -9,15 +9,15 @@ const Catalog = () => (
             Catálogo de produtos
         </h1>
         <div className="catalog-products">
-            <Link to="1"><ProductCard /></Link>
-            <Link to="2"><ProductCard /></Link>
-            <Link to="3"><ProductCard /></Link>
-            <Link to="4"><ProductCard /></Link>
-            <Link to="5"><ProductCard /></Link>
-            <Link to="6"><ProductCard /></Link>
-            <Link to="7"><ProductCard /></Link>
-            <Link to="8"><ProductCard /></Link>
-            <Link to="9"><ProductCard /></Link>
+            <Link to="/products/1"><ProductCard /></Link>
+            <Link to="/products/2"><ProductCard /></Link>
+            <Link to="/products/3"><ProductCard /></Link>
+            <Link to="/products/4"><ProductCard /></Link>
+            <Link to="/products/5"><ProductCard /></Link>
+            <Link to="/products/6"><ProductCard /></Link>
+            <Link to="/products/7"><ProductCard /></Link>
+            <Link to="/products/8"><ProductCard /></Link>
+            <Link to="/products/9"><ProductCard /></Link>
         </div>
     </div>
 );

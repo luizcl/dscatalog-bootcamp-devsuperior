@@ -10,7 +10,9 @@ const ProductDetails = () => {
     const { productId } = useParams<ParamsType>();
     return(
         <div className="product-details-container">
-            <h1>Product Details</h1>
+            <div className="card-base border-radius-20 product-details">
+                <h1>Product Details</h1>
+            </div>
         </div>
     );
 };
