@@ -16,7 +16,7 @@ const Navbar = () => (
                 </NavLink>
             </li>
             <li>
-                <NavLink to="/admin/users" className="Linkdmin-nLinkv-item">
+                <NavLink to="/admin/users" className="admin-nav-item">
                     Meus Usuários
                 </NavLink>
             </li>
