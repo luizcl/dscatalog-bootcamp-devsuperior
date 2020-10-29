@@ -36,3 +36,6 @@ build/
 
 mvnw
 mvnw.cmd
+
+### React
+node_modules/
