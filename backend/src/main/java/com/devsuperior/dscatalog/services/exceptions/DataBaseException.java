@@ -1,4 +1,4 @@
-package com.devsuperior.dscatalog.services.eceptions;
+package com.devsuperior.dscatalog.services.exceptions;
 
 public class DataBaseException extends RuntimeException{
 
